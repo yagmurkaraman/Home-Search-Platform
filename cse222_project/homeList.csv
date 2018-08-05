@@ -1,0 +1,22 @@
+Ad No, Province, Country, Neighborhood, Status, Type, Count Of Room, Owner's Contact Email, Area, Price, Distance
+1,Istanbul,Turkey,Adalar,Rent,Apartment,1+0,ykaraman@gtu.edu.tr,60,500,29
+2,Istanbul,Turkey,Adalar,Rent,Apartment,1+1,betulk@gtu.edu.tr,75,650,20
+3,Istanbul,Turkey,Adalar,Rent,Apartment,2+1,fatihselim@hotmail.com,100,750,16
+4,Istanbul,Turkey,Adalar,Rent,Apartment,3+1,denizahmet@hotmail.com,130,900,14
+5,Istanbul,Turkey,Adalar,Sale,House,4+1,fatihselim@hotmail.com,200,400600,10
+6,Istanbul,Turkey,Adalar,Sale,Apartment,1+0,barisalp@gmail.com,50,600,35
+7,Istanbul,Turkey,Arnavutkoy,Rent,Apartment,1+0,ezgikoroglu@hotmail.com,60,550,32
+8,Istanbul,Turkey,Arnavutkoy,Rent,Apartment,1+1,durucihan@hotmail.com,75,650,23
+9,Istanbul,Turkey,Arnavutkoy,Rent,Apartment,2+1,mehmetselim@hotmail.com,120,750,16
+10,Istanbul,Turkey,Arnavutkoy,Rent,House,3+1,ahmet_89@hotmail.com,130,950,16
+11,Istanbul,Turkey,Arnavutkoy,Sale,Residence,4+1,erdemsalih@hotmail.com,200,700000,10
+12,Istanbul,Turkey,Arnavutkoy,Sale,Apartment,1+0,barishasan@gmail.com,50,600,35
+13,Istanbul,Turkey,Atasehir,Rent,Apartment,1+0,elifgunsor@hotmail.com,60,550,49
+14,Istanbul,Turkey,Atasehir,Rent,Apartment,1+1,canyilmaz@hotmail.com,75,650,23
+15,Istanbul,Turkey,Atasehir,Rent,Dublex,2+1,muratyilmaz@hotmail.com,120,750,16
+16,Istanbul,Turkey,Atasehir,Rent,House,3+1,muratyilmaz@hotmail.com,130,950,15
+17,Istanbul,Turkey,Atasehir,Sale,Residence,4+1,nkeven@gtu.edu.tr,200,700000,10
+18,Istanbul,Turkey,Atasehir,Sale,Apartment,1+0,yusufagaoglu@gmail.com,50,600,89
+19,Istanbul,Turkey,Atakoy,Rent,House,3+1,ykaraman@gtu.edu.tr,10,1000,100
+20,Istanbul,Turkey,Maltepe,Sale,Apartment,2+1,ykaraman@gtu.edu.tr,10,1000,100
+21,Istanbul,Turkey,Maltepe,Sale,House,1+1,ykaraman@gtu.edu.tr,105,95000,100

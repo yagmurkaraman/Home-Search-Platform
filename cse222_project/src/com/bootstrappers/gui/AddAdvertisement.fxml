@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bootstrappers.gui.AddAdvertisement">
+   <children>
+      <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="500.0" prefWidth="300.0">
+         <children>
+             <TextField fx:id="price" layoutX="70.0" layoutY="39.0" prefHeight="31.0" prefWidth="64.0" />
+             <ComboBox fx:id="locationbox" layoutX="70.0" layoutY="80.0" prefHeight="35.0" prefWidth="190.0" />
+             <ComboBox fx:id="roomsbox" layoutX="70.0" layoutY="130.0" prefHeight="35.0" prefWidth="190.0" />
+             <ComboBox fx:id="statusbox" layoutX="70.0" layoutY="180.0" prefHeight="35.0" prefWidth="190.0" />
+             <ComboBox fx:id="typebox" layoutX="70.0" layoutY="230.0" prefHeight="35.0" prefWidth="190.0" />
+             <Label layoutX="10.0" layoutY="44.0" text="Price: " />
+             <Label layoutX="10.0" layoutY="85.0" text="Location: " />
+             <Label layoutX="10.0" layoutY="135.0" text="Rooms: " />
+             <Label layoutX="10.0" layoutY="185.0" text="Status: " />
+             <Label layoutX="10.0" layoutY="235.0" text="Type: " />
+            <Button fx:id="add" layoutX="60.0" layoutY="285.0" mnemonicParsing="false" onAction="#addButtonSelected" prefHeight="35.0" prefWidth="70.0" text="Add" />
+            <Button fx:id="cancel" layoutX="160.0" layoutY="285.0" mnemonicParsing="false" onAction="#cancelButtonSelected" prefHeight="35.0" prefWidth="70.0" text="Cancel" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="172.0" prefWidth="172.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bootstrappers.gui.MainScreen">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="172.0" prefWidth="172.0">
+         <children>
+            <Button fx:id="adminbutton" style="-fx-background-insets: 0,0,-1,0;" styleClass="primary" layoutX="46.0" layoutY="50.0" mnemonicParsing="false" onAction="#adminSelected" prefHeight="40.0" prefWidth="80.0" text="Admin" />
+            <Button fx:id="userbutton" style="-fx-background-insets: 0,0,-1,0;" styleClass="primary" layoutX="46.0" layoutY="100.0" mnemonicParsing="false" onAction="#userSelected" prefHeight="40.0" prefWidth="80.0" text="User" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

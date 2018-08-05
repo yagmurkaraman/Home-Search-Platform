@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bootstrappers.gui.AdminScreen">
+    <children>
+        <AnchorPane prefHeight="484.0" prefWidth="619.0">
+            <children>
+                <TableView fx:id="usertable" layoutX="278.0" prefHeight="600.0" prefWidth="1050.0">
+                    <columns>
+                    </columns>
+                </TableView>
+                <TextField fx:id="minPrice" layoutX="48.0" layoutY="39.0" prefHeight="31.0" prefWidth="64.0" />
+                <TextField fx:id="maxPrice" layoutX="186.0" layoutY="39.0" prefHeight="31.0" prefWidth="72.0" />
+                <ComboBox fx:id="locationbox" layoutX="70.0" layoutY="80.0" prefHeight="35.0" prefWidth="190.0" />
+                <ComboBox fx:id="roomsbox" layoutX="70.0" layoutY="130.0" prefHeight="35.0" prefWidth="190.0" />
+                <ComboBox fx:id="statusbox" layoutX="70.0" layoutY="180.0" prefHeight="35.0" prefWidth="190.0" />
+                <ComboBox fx:id="typebox" layoutX="70.0" layoutY="230.0" prefHeight="35.0" prefWidth="190.0" />
+                <Label layoutX="10.0" layoutY="14.0" text="Filters" />
+                <Label layoutX="10.0" layoutY="44.0" text="Price: " />
+                <Label layoutX="123.0" layoutY="44.0" text="between" />
+                <Label layoutX="10.0" layoutY="85.0" text="Location: " />
+                <Label layoutX="10.0" layoutY="135.0" text="Rooms: " />
+                <Label layoutX="10.0" layoutY="185.0" text="Status: " />
+                <Label layoutX="10.0" layoutY="235.0" text="Type: " />
+                <Button fx:id="applyfilters" layoutX="21.0" layoutY="285.0" mnemonicParsing="false" onAction="#applyFiltersSelected" prefHeight="30.0" prefWidth="127.0" style="-fx-background-insets: 0,0,-1,0;" styleClass="primary" text="Apply Filters" />
+                <Button fx:id="addadv" layoutX="21.0" layoutY="333.0" mnemonicParsing="false" onAction="#addAdvSelected" prefHeight="30.0" prefWidth="127.0" style="-fx-background-insets: 0,0,-1,0;" styleClass="primary" text="Add Advertisement" />
+                <Button fx:id="showmine" layoutX="158.0" layoutY="333.0" mnemonicParsing="false" onAction="#showMineSelected" prefHeight="30.0" prefWidth="106.0" style="-fx-background-insets: 0,0,-1,0;" styleClass="primary" text="Show Mine" />
+                <Button fx:id="clearfilters" layoutX="158.0" layoutY="285.0" mnemonicParsing="false" onAction="#clearFiltersSelected" prefHeight="30.0" prefWidth="106.0" style="-fx-background-insets: 0,0,-1,0;" styleClass="primary" text="Clear Filters" />
+            <Button fx:id="deletebutton" layoutX="158.0" layoutY="380.0" mnemonicParsing="false" onAction="#deleteSelected" prefHeight="30.0" prefWidth="106.0" style="-fx-background-insets: 0,0,-1,0;" styleClass="primary" text="Delete" />
+            <TextField fx:id="deleteid" layoutX="21.0" layoutY="380.0" prefHeight="30.0" prefWidth="127.0" />
+            </children></AnchorPane>
+    </children>
+</AnchorPane>
